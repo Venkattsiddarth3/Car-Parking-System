@@ -31,7 +31,7 @@ A simple console-based parking system developed in Java that allows users to par
 ### 🚀 Running the Program
 
 1. Clone the repository or download the `.java` file.
-2. Compile the Java file:
+2. Compile the Java file:\
 
 # Running in Notepad ? 
 
@@ -44,3 +44,66 @@ cd Foldername
 javac ParkingSystem.java
 
 java ParkingSystem
+```
+---
+
+# Output Format 
+
+```bash
+
+Enter the total number of parking slots:
+3
+
+What would you like to do?
+1. Park a car
+2. Remove a car
+3. View parked cars
+4. Exit
+Enter Choice : 1
+
+Enter the license plate number of the car:
+KA01AB1234
+Car parked successfully. Available slots: 2
+
+What would you like to do?
+1. Park a car
+2. Remove a car
+3. View parked cars
+4. Exit
+Enter Choice : 1
+
+Enter the license plate number of the car:
+AP09CD5678
+Car parked successfully. Available slots: 1
+
+What would you like to do?
+1. Park a car
+2. Remove a car
+3. View parked cars
+4. Exit
+Enter Choice : 3
+
+Parked cars:
+KA01AB1234
+AP09CD5678
+
+What would you like to do?
+1. Park a car
+2. Remove a car
+3. View parked cars
+4. Exit
+Enter Choice : 2
+
+Enter the license plate number of the car to be removed:
+KA01AB1234
+Car removed successfully. Available slots: 2
+
+What would you like to do?
+1. Park a car
+2. Remove a car
+3. View parked cars
+4. Exit
+Enter Choice :4
+
+#Exit
+
